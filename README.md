@@ -1,6 +1,6 @@
-#Architecture CSS
+# Architecture CSS
 
-Example the architecture CSS at micro-framework the style
+Example the architecture CSS at micro-framework the style.
 
 ## Links
 
