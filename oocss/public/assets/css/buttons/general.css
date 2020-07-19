@@ -1,0 +1,34 @@
+/*
+
+.seletor {
+    [posicionamento] ex: display e etc...
+    [tamanho] ex: width, height e etc...
+    [espaçamentos] ex: padding e etc...  
+    [plano de fundo] ex: color, background e etc..
+    [bordas] ex: border, border-radius, outline e etc...
+    [fonte e propriedades de texto] ex: font-size, line-height e etc...
+    [outros] ex: cursor e etc...
+}
+
+*/
+
+.btn {
+    padding: .5rem .75rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(93%);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 1pt #609ff1;
+}

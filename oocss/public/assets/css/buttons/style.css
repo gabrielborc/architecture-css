@@ -1,0 +1,35 @@
+.btn-primary {
+    background-color: #528be6;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    background-color: #D3D4D9;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #1B998B;
+    color: #ffffff;  
+}
+
+.btn-danger {
+    background-color: #EF767A;
+    color: #ffffff;  
+}
+
+.btn-dark {
+    background-color: #3d3b41;
+    color: #ffffff;  
+}
+
+.btn-light {
+    background-color: #FBF5F3;
+    color: #3d3b41;  
+}
+
+
+.btn:disabled, .btn:disabled:hover {
+    cursor: auto;
+    filter: grayscale(40%);
+}
