@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+}
+
+.show-code {
+    width: 100% ;
+    margin: 1.5rem 1rem;
+}
+
+.show-code button {
+    margin-right: .5rem;
+}
+
+.show-code .prettyprint  {
+    margin: 0;
+    margin-top: 25px;
+}
+
+.show-code .align-bottom {
+    display: flex;
+    align-items: flex-end;
+}
