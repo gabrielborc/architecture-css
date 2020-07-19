@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title OOCSS
+        link(rel="stylesheet", href="assets/css/style.css")
+        link(rel="stylesheet", href="assets/css/buttons/general.css")
+        link(rel="stylesheet", href="assets/css/buttons/size.css")
+        link(rel="stylesheet", href="assets/css/buttons/style.css")
+        script(src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=css&skin=doxy")
+
+    body
+
+        div(class="container")
+            h1 Examples
+            
+            div(class="show-code")
+                p Example the styles
+                
+                button(class="btn btn-primary") Primary        
+                button(class="btn btn-secondary") Secondary        
+                button(class="btn btn-success") Success        
+                button(class="btn btn-danger") Danger       
+                button(class="btn btn-dark") Dark        
+                button(class="btn btn-light") Light
+            
+                pre(class="prettyprint") &lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;  
+                    | 
+                    | &lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+                    | &lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+                    | &lt;button class="btn btn-danger"&gt;Danger&lt;/button&gt;
+                    | &lt;button class="btn btn-light"&gt;Light&lt;/button&gt;
+
+
+            div(class="show-code")
+                p Example the size
+                
+                div(class="align-bottom")
+                    button(class="btn btn-primary btn-sm") Small  
+                    button(class="btn btn-primary") Default
+                    button(class="btn btn-primary btn-lg") Large
+
+                pre(class="prettyprint") &lt;button class="btn btn-primary btn-sm"&gt;Small&lt;/button&gt;  
+                    | 
+                    | &lt;button class="btn btn-primary"&gt;Default&lt;/button&gt;
+                    | &lt;button class="btn btn-primary btn-lg"&gt;Large&lt;/button&gt;
+
+
+            div(class="show-code")
+                p Example the block
+                
+                button(class="btn btn-primary btn-block") Block
+
+                pre(class="prettyprint") &lt;button class="btn btn-primary btn-block"&gt;Block&lt;/button&gt;
+
+            div(class="show-code")
+                p Example the disabled
+                
+                button(class="btn btn-primary", disabled) Primary        
+                button(class="btn btn-secondary", disabled) Secondary
+
+                pre(class="prettyprint") &lt;button class="btn btn-primary btn-sm" disabled&gt;Primary&lt;/button&gt;  
+                    | 
+                    | &lt;button class="btn btn-primary" disabled&gt;Secondary&lt;/button&gt;
+    
+    
